@@ -1,11 +1,10 @@
 body {
   font-family: "Mukta", sans-serif;
-  
 }
 .contained-in {
   background-image: url("img/zach-reiner-unsplash.jpg");
   background-size: contain;
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .weatherbox {
   border: 2px solid;
