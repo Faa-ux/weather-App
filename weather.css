@@ -1,6 +1,14 @@
 body{
   font-family: 'Mukta', sans-serif;
 }
+.weatherbox{
+  border: 2px solid;
+  margin:auto;
+  max-width: 500px;
+}
+div{
+  display: block;
+}
 form{
   display: block;
   text-align: center;
@@ -22,7 +30,5 @@ footer{
   display: block;
   margin: 0 auto;
   text-align: center;
-
-
 
 }
