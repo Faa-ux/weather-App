@@ -41,4 +41,4 @@ function search(event) {
     });
 }
 let form = document.querySelector("#searchcity");
-form.addEventListener("submit", search);
+// form.addEventListener("submit", search);

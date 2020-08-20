@@ -1,34 +1,41 @@
-body{
-  font-family: 'Mukta', sans-serif;
+body {
+  font-family: "Mukta", sans-serif;
+  
 }
-.weatherbox{
+.contained-in {
+  background-image: url("img/zach-reiner-unsplash.jpg");
+  background-size: contain;
+background-repeat: no-repeat;
+}
+.weatherbox {
   border: 2px solid;
-  margin:auto;
+  margin: auto;
   max-width: 500px;
 }
-div{
+div {
   display: block;
 }
-form{
+form {
   display: block;
   text-align: center;
   padding: 15px;
   font-size: 18px;
 }
-h4{
+h4 {
   display: block;
   margin: 20 px;
   font-size: 40px;
+  color: white;
 }
-span{
-display: block;
-margin: 20px;
-font-size: 20px;
-font-weight: bold;
+span {
+  display: block;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
-footer{
+footer {
   display: block;
   margin: 0 auto;
   text-align: center;
-
 }
