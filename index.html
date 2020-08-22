@@ -10,11 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    <div style="width:100vw;height:100vh" class="d-flex justify-content-center">
+ <div>
         <div  class="contained-in" >
             <form class="form-inline" id=searchcity>
                 <div class="form-group mx-sm-3 mb-2">
-                    <label for="inputCity" class="sr-only">City</label>
+                    <label form="inputCity" class="sr-only">City</label>
                     <input type="text" class="form-control" id="inputcity" placeholder="Search your city">
                 </div>
                 <button type="submit" class="btn btn-primary mb-2">Search</button>
@@ -23,6 +23,13 @@
             <h4>
                Toronto
             </h4>
+            <h5 class="weather-descriptor"> it is raining</h5>
+            <h5 class="wind">
+                windspeed
+            </h5>
+            <h5 class="precip">
+                precipitation
+            </h5>
             <span id="current-time"></span>
             <br>
         </div>
