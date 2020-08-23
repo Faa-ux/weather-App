@@ -21,6 +21,7 @@ body{
 div {
   display: block;
   margin-left: auto;
+  color: white;
 }
 form {
   display: block;
@@ -28,29 +29,15 @@ form {
   padding: 15px;
   font-size: 18px;
 }
-h4 {
+.location {
   display: block;
   margin: 20 px;
   font-size: 40px;
   color: white;
   text-align: center;
 }
-h5 {
-  color: white;
-}
-.weatherdescriptor{
-  text-align: 10rem left; 
-}
-.wind{
 
-}
-.precipitation{
-
-}
 .current-time{
-  text-align:right;
-}
-span {
   display: block;
   margin: 20px;
   font-size: 20px;
