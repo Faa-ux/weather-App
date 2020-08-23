@@ -20,7 +20,6 @@ body{
 }
 div {
   display: block;
-  /* margin:55px 200px; */
   margin-left: auto;
 }
 form {
@@ -38,13 +37,23 @@ h4 {
 }
 h5 {
   color: white;
-  text-align: center;
+}
+.weatherdescriptor{
+  text-align: 10rem left; 
+}
+.wind{
+
+}
+.precipitation{
+
+}
+.current-time{
+  text-align:right;
 }
 span {
   display: block;
   margin: 20px;
   font-size: 20px;
-  font-weight: bold;
   color: white;
   text-align: center;
 }
