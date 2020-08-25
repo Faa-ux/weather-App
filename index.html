@@ -21,20 +21,26 @@
             </form>
                 <br>
                 <div class="row">
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="clear" id="icon" class="float-left">
-                <div id="current-time" class="col">
+                
+                <div id=current-temperature class="col">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="clear" id="icon" class="float-left"/>
+                <div > 
+                    <strong id="temperature"><span class="units">C°</span>
+                    </strong>
                 </div>
-                <div id="location" class="col float-left">
-                    City
                 </div>
-                <div id="weatherdescriptor" class="col float-left">
-                    Cloud cover
+                <div class="col"><ul>
+                    <li id="location">City</li>
+                    <li ><strong id="current-time">Time</strong></li>
+                </ul>
+                    <strong ></strong>
                 </div>
-                <div id="wind" class="col">
-                    in km/h
-                </div>
-                <div id="precipitation" class="col">
-                    rain?
+                <div class="col">
+                    <ul>
+                        <li id="weatherdescriptor" >Cloud cover</li>
+                        <li id="wind">Km/h</li>
+                        <li id="precipitation">Rain</li>
+                    </ul>
                 </div>
                 <br>
         </div>
