@@ -1,7 +1,3 @@
-//temperature conversion
-//converting seconds to time
-// how do i make the function display the time of the place im searching
-//this gives me my time. thats not what i need
 let date = new Date();
 let day = date.getDay();
 let days = [
@@ -36,7 +32,6 @@ function search(event) {
   let geo = document.querySelector("#location");
   geo.innerHTML = `${searchInput.value}`;
   let currentWeather = document.querySelector("#temperature");
-  //let time = document.querySelector("#current-time");
   let description = document.querySelector("#weatherdescriptor");
   let speed = document.querySelector("#wind");
   let humid = document.querySelector("#precipitation");
@@ -46,7 +41,6 @@ function search(event) {
     .get(apiUrl)
     .then(function (response) {
       console.log(response);
-      //There is the time of the forecast :D sorry, i mean i cant get it to reflect on my code
       var forecastTime = new Date(
         response.data.dt + response.data.timezone * 1000
       );
@@ -56,10 +50,10 @@ function search(event) {
       console.log(response.data.wind.speed);
       console.log(response.data.main.humidity);
 
-      currentWeather.innerHTML = `${Math.round(response.data.main.temp)}C°`;
+      currentWeather.innerHTML = `${Math.round(response.data.main.temp)} C°`;
       document.getElementById(
         "current-time"
-      ).innerHTML = `${forecastTime.toLocaleString("en-us", {
+      ).innerHTML = `Last Updated ${forecastTime.toLocaleString("en-us", {
         weekday: "long",
       })}, ${forecastTime.getHours()}:${forecastTime.getSeconds()}`;
       description.innerHTML = response.data.weather[0].description;
